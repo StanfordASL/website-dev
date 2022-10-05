@@ -27,8 +27,9 @@ github_username:  StanfordASL
 markdown: kramdown
 encoding: utf-8
 theme: minima
-gems:
+plugins:
   - jekyll-feed
+  - jekyll/scholar
 exclude:
   - Gemfile
   - Gemfile.lock
